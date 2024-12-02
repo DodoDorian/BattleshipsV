@@ -1,0 +1,32 @@
+{
+"Description":{
+    "version":1.0,
+    "gamemodes":2
+},
+"ships":[
+    {"name":"submarine", "size":1},
+    {"name":"destroyer", "size":2},
+    {"name":"cruiser",   "size":3},
+    {"name":"battleship", "size":4},
+    {"name":"aircraft_carrier", "size":5}
+],
+"gamemodes":[
+    {
+    "players":2,
+    "ships":{
+        "submarine":2,
+        "destroyer":2,
+        "cruiser":1,
+        "battleship":1,
+        "aircraft_carrier":1
+    }},
+    {
+    "players":3,
+    "ships":{
+        "submarine":2,
+        "destroyer":2,
+        "cruiser":1,
+        "battleship":1,
+        "aircraft_carrier":1
+    }}
+]}
