@@ -3,6 +3,16 @@
     "version":1.0,
     "gamemodes":2
 },
+"logic":{
+    "p": "player.import",
+    "j": "json.import",
+    "a": "array.import",
+    "s": "int.shoot"
+},
+"identifier":{
+    "import" : "import",
+    "shoot" : "randomString"
+},
 "ships":[
     {"name":"submarine", "size":1},
     {"name":"destroyer", "size":2},
