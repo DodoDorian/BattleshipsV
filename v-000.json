@@ -45,7 +45,8 @@
             "aircraft_carrier":1
             }
         }
-    }},
+    }}},
+    {
     "players":{
         "1": {"hp-offset":0,
             "ships":{
@@ -73,5 +74,5 @@
             "aircraft_carrier":1
             }
         }
-    }},
+    }}}
 ]}
