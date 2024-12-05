@@ -9,7 +9,7 @@
     "e": "exception",
     "g": "int.guess",
     "j": "json.import",
-    "n": "player.num",
+    "n": "int.num",
     "p": "player.import",
     "s": "int.session",
     "w": "boolean.end"
