@@ -4,14 +4,23 @@
     "gamemodes":2
 },
 "logic":{
-    "p": "player.import",
-    "j": "json.import",
     "a": "array.import",
-    "s": "int.shoot"
+    "c": "string.key",
+    "e": "exception",
+    "g": "int.guess",
+    "j": "json.import",
+    "n": "player.num",
+    "p": "player.import",
+    "s": "int.session",
+    "w": "boolean.end"
 },
 "identifier":{
     "import" : "import",
-    "shoot" : "randomString"
+    "guess" : "keyOut",
+    "key": "keyIn",
+    "end": "gameEnd",
+    "num": "playerCount",
+    "session": "session"
 },
 "ships":[
     {"name":"submarine", "size":1},
@@ -22,21 +31,51 @@
 ],
 "gamemodes":[
     {
-    "players":2,
-    "ships":{
-        "submarine":2,
-        "destroyer":2,
-        "cruiser":1,
-        "battleship":1,
-        "aircraft_carrier":1
+    "players":{
+        "1": {"hp-multiplier":0,
+            "ships":{
+            "submarine":2,
+            "destroyer":2,
+            "cruiser":1,
+            "battleship":1,
+            "aircraft_carrier":1
+            },
+        "2": {"hp-multiplier":1,
+            "ships":{
+            "submarine":2,
+            "destroyer":2,
+            "cruiser":1,
+            "battleship":1,
+            "aircraft_carrier":1
+            }
+        }
     }},
-    {
-    "players":3,
-    "ships":{
-        "submarine":2,
-        "destroyer":2,
-        "cruiser":1,
-        "battleship":1,
-        "aircraft_carrier":1
-    }}
+    "players":[
+        "1": {"hp-offset":0,
+            "ships":{
+            "submarine":2,
+            "destroyer":2,
+            "cruiser":1,
+            "battleship":1,
+            "aircraft_carrier":1
+            },
+        "2": {"hp-offset":0,
+            "ships":{
+            "submarine":2,
+            "destroyer":2,
+            "cruiser":1,
+            "battleship":1,
+            "aircraft_carrier":1
+            }
+        },
+        "3": {"hp-offset":0,
+            "ships":{
+            "submarine":2,
+            "destroyer":2,
+            "cruiser":1,
+            "battleship":1,
+            "aircraft_carrier":1
+            }
+        }
+    ]},
 ]}
