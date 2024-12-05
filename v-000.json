@@ -1,8 +1,4 @@
 {
-"Description":{
-    "version":1.0,
-    "gamemodes":2
-},
 "logic":{
     "a": "array.import",
     "c": "string.key",
