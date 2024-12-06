@@ -1,5 +1,5 @@
 {
-"logic":{
+"identifier":{
     "a": "array.import",
     "c": "string.key",
     "e": "exception",
@@ -10,7 +10,7 @@
     "s": "int.session",
     "w": "boolean.end"
 },
-"identifier":{
+"memory":{
     "import" : "import",
     "guess" : "keyOut",
     "key": "keyIn",
