@@ -1,78 +1,48 @@
 {
-"identifier":{
-    "a": "array.import",
-    "c": "string.key",
-    "e": "exception",
-    "g": "int.guess",
-    "j": "json.import",
-    "n": "int.num",
-    "p": "player.import",
-    "s": "int.session",
-    "w": "boolean.end"
-},
-"memory":{
-    "import" : "import",
-    "guess" : "keyOut",
-    "key": "keyIn",
-    "end": "gameEnd",
-    "num": "playerCount",
-    "session": "session"
-},
-"ships":[
-    {"name":"submarine", "size":1},
-    {"name":"destroyer", "size":2},
-    {"name":"cruiser",   "size":3},
-    {"name":"battleship", "size":4},
-    {"name":"aircraft_carrier", "size":5}
-],
-"gamemodes":[
-    {
-    "players":{
-        "1": {"hp-multiplier":0,
-            "ships":{
-            "submarine":2,
-            "destroyer":2,
-            "cruiser":1,
-            "battleship":1,
-            "aircraft_carrier":1
-            },
-        "2": {"hp-multiplier":1,
-            "ships":{
-            "submarine":2,
-            "destroyer":2,
-            "cruiser":1,
-            "battleship":1,
-            "aircraft_carrier":1
-            }
+    "ships": [
+        {
+            "name": "submarine",
+            "size": 1
+        },
+        {
+            "name": "destroyer",
+            "size": 2
+        },
+        {
+            "name": "cruiser",
+            "size": 3
+        },
+        {
+            "name": "battleship",
+            "size": 4
+        },
+        {
+            "name": "aircraftCarrier",
+            "size": 5
         }
-    }}},
-    {
-    "players":{
-        "1": {"hp-offset":0,
-            "ships":{
-            "submarine":2,
-            "destroyer":2,
-            "cruiser":1,
-            "battleship":1,
-            "aircraft_carrier":1
-            },
-        "2": {"hp-offset":0,
-            "ships":{
-            "submarine":2,
-            "destroyer":2,
-            "cruiser":1,
-            "battleship":1,
-            "aircraft_carrier":1
+    ],
+    "gameModes": [
+        {
+            "name": "Classic",
+            "players": 2,
+            "ships": {
+                "submarine": 2,
+                "destroyer": 2,
+                "cruiser": 1,
+                "battleship": 1,
+                "aircraftCarrier": 1
             }
         },
-        "3": {"hp-offset":0,
-            "ships":{
-            "submarine":2,
-            "destroyer":2,
-            "cruiser":1,
-            "battleship":1,
-            "aircraft_carrier":1
+        {
+            "name": "Extended",
+            "players": 3,
+            "ships": {
+                "submarine": 2,
+                "destroyer": 2,
+                "cruiser": 1,
+                "battleship": 1,
+                "aircraftCarrier": 1
             }
         }
-    }}}
-]}
+    ]
+}
