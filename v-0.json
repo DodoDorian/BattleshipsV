@@ -24,6 +24,7 @@
     "gameModes": [
         {
             "name": "Classic",
+            "gridsize": 10,
             "players": 2,
             "ships": {
                 "submarine": 2,
@@ -35,10 +36,11 @@
         },
         {
             "name": "Extended",
+            "gridsize": 8,
             "players": 3,
             "ships": {
                 "submarine": 2,
-                "destroyer": 2,
+                "destroyer": 1,
                 "cruiser": 1,
                 "battleship": 1,
                 "aircraftCarrier": 1
