@@ -44,3 +44,13 @@ Contains all released versions of Battleships
   ]
 }
 ```
+
+## Usage
+<p>
+  These versions are used in another project. The repository is private, but if you have access, you can find it under: https://github.com/DodoDorian/Battleships/
+</p>
+
+## License
+<p>
+  Anything you find on this repository can be used under the MIT license. The file structure and any names of ships or gamemodes are free to use as well.
+</p>
