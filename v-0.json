@@ -18,18 +18,6 @@
       "gridsize": 10,
       "players": 2,
       "name": "Classic"
-    },
-    {
-      "ships": {
-        "aircraftCarrier": 1,
-        "battleship": 1,
-        "submarine": 2,
-        "destroyer": 1,
-        "cruiser": 1
-      },
-      "gridsize": 8,
-      "players": 2,
-      "name": "Quick Match"
     }
   ]
 }
