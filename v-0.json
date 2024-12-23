@@ -21,9 +21,8 @@
     },
     {
       "ships": {
-        "aircraftCarrier": 1,
         "battleship": 1,
-        "submarine": 2,
+        "submarine": 3,
         "destroyer": 1,
         "cruiser": 1
       },
